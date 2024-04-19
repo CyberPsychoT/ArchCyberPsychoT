@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'articles',
+    loadChildren: () => import('./pages/articles/articles.module').then( m => m.ArticlesPageModule)
+  },
+  {
+    path: 'error404',
+    loadChildren: () => import('./pages/error404/error404.module').then( m => m.Error404PageModule)
+  },
+  {
+    path: '**',
+    redirectTo: '/error404' // Redirigir a la página de inicio si la ruta no es válida
+  }
 ];
 
 @NgModule({
