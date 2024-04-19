@@ -1,20 +1,31 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!-- NavBar Component -->
+<app-navbar></app-navbar>
+<ion-content>
+    <!-- Carousel component -->
+    <app-carousel></app-carousel>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <div class="contenido">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+        <!-- Presentación -->
+        <div class="presentacion"><br><br>
+            <h1>Bienvenidos a <span class="titulo">Arch Linux</span> <span class="barra"> | </span>Blog</h1>
+            <p>¡Hola! Mi nombre es <span class="usuario"> {{ usuario }} </span>, y estoy encantado de darte la
+                bienvenida a
+                este espacio
+                dedicado
+                a Arch Linux. Aquí encontrarás una guía completa para aprovechar al máximo este sistema operativo ágil y
+                eficiente, junto con consejos avanzados de personalización para adaptarlo a tus necesidades.</p><br>
+
+            <h2>¿Qué podrás descubrir en este blog?</h2>
+            <ul>
+                <li>Descarga de la última versión de Arch Linux.</li>
+                <li>Una detallada guía paso a paso para la instalación de Arch Linux.</li>
+                <li>Consejos expertos y trucos para personalizar y optimizar tu sistema.</li>
+            </ul><br>
+
+            <p>Explora y sumérgete en la experiencia de utilizar Arch Linux. Desde la instalación inicial hasta la
+                configuración avanzada, este blog está diseñado para ayudarte a dominar tu sistema operativo y hacerlo
+                totalmente tuyo.</p>
+        </div>
+    </div>
 </ion-content>

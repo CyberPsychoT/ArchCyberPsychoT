@@ -1,3 +1,5 @@
-<p>
-  carousel works!
-</p>
+<swiper-container effect="cube" [slidesPerView]="1" [loop]="true" [speed]="1000" [autoplay]="true">
+  <swiper-slide *ngFor="let image of images">
+    <ion-img [src]="image.src"></ion-img>
+  </swiper-slide>
+</swiper-container>
