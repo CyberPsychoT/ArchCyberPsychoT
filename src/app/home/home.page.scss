@@ -11,7 +11,7 @@
 
     .titulo {
       font-weight: bolder;
-      color: var(--ion-color-primary);
+      color: var(--ion-color-tertiary);
     }
 
     .barra {
@@ -24,7 +24,7 @@
 
     .usuario {
       font-weight: bold;
-      color: var(--ion-color-primary);
+      color: var(--ion-color-tertiary);
     }
   }
 
@@ -42,6 +42,26 @@
     /* Mover el marcador al interior del contenedor de la lista */
   }
 
+}
+
+.requisitos {
+  text-align: center;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  ion-col h3 a {
+    color: var(--ion-color-tertiary);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  ion-col h3 a:hover {
+    color: var(--ion-color-primary);
+    transition: 0.5s;
+  }
 }
 
 /* Estilos específicos para dispositivos móviles (ejemplo: pantalla menor a 768px de ancho) */
