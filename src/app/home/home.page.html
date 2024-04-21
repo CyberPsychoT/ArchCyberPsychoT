@@ -39,7 +39,7 @@
                 diseñado para ayudarte a dominar tu sistema operativo y hacerlo
                 totalmente tuyo.
             </p>
-        </div>
+        </div><br>
 
         <!-- CARDS DE REQUISITOS -->
         <ion-grid class="requisitos">
@@ -56,18 +56,27 @@
                     <img src="../../assets/icon/articulo.png" alt="Articulos" />
                     <h3><a href="/articles">Articulos</a></h3>
                 </ion-col>
-            </ion-row> </ion-grid><br /><br />
+            </ion-row> </ion-grid><br />
 
         <!--  -->
         <ion-grid class="actualizaciones">
             <ion-row>
-                <ion-col class="ultimasn" size="8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
-                    numquam dolore dolor vel possimus alias corporis, molestiae unde?
-                    Dolorem nemo animi commodi dolor doloribus qui hic voluptate earum
-                    nostrum nisi.
+                <ion-col class="ultimasn" size="12" sizeSm="8">
+                    <h1>Ultimos articulos:</h1>
+                    <ul>
+                        <li><a href="/articles/grub-custom">Instalacion de themes Grub</a></li>
+                        <li><a href="/articles/polybar">Barra de Estado Polybar</a></li>
+                        <li><a href="/articles/bspwm">Gestor de ventanas BSPWM</a></li>
+                        <li><a href="/articles/lightdm">Instalacion de Lightdm</a></li>
+                    </ul>
                 </ion-col>
-                <ion-col size="4">B</ion-col>
+                <ion-col class="prerequisitos" size="12" sizeSm="4">
+                    <h3>Pre-requisitos</h3>
+                    <p>Descargar ISO de <span><a href="https://archlinux.org/download/">Arch Linux</a></span></p>
+                    <p><span><a href="/articles/install">Instalación</a></span> de Arch Linux</p>
+                    <p>Revisar los <span><a href="/articles">Articulos</a></span></p>
+                </ion-col>
             </ion-row>
-        </ion-grid>
+        </ion-grid><br><br>
     </div>
 </ion-content>

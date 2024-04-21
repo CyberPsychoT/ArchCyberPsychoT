@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
   // Definir una lista de imágenes con sus nombres y rutas
-  images = [{ src: 'assets/background/archBanner1.jpg' }];
+  images = [{ src: 'assets/background/archBanner2.jpg' }];
   constructor() {}
 
   ngOnInit() {}

@@ -11,7 +11,7 @@
 
     .titulo {
       font-weight: bolder;
-      color: var(--ion-color-tertiary);
+      color: var(--ion-color-primary);
     }
 
     .barra {
@@ -24,7 +24,7 @@
 
     .usuario {
       font-weight: bold;
-      color: var(--ion-color-tertiary);
+      color: var(--ion-color-primary);
     }
   }
 
@@ -53,13 +53,13 @@
   }
 
   ion-col h3 a {
-    color: var(--ion-color-tertiary);
+    color: var(--ion-color-primary);
     text-decoration: none;
     font-weight: bold;
   }
 
   ion-col h3 a:hover {
-    color: var(--ion-color-primary);
+    color: var(--ion-color-dark);
     transition: 0.5s;
   }
 }
@@ -67,9 +67,40 @@
 .actualizaciones {
   text-align: center;
 
+  a {
+    color: var(--ion-color-primary);
+    text-decoration: none;
+    font-weight: 550;
+  }
+
+  a:hover {
+    color: var(--ion-color-dark);
+    transition: 0.5s;
+  }
+
   .ultimasn {
-    border: 4px;
-    border-style: dashed;
+    text-align: start;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--ion-color-medium);
+    padding: 15px;
+
+    h1 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    ul li {
+      margin: 10px 0px;
+    }
+  }
+
+  .prerequisitos {
+    h3 {
+      font-weight: 600;
+      font-size: 20px;
+    }
   }
 }
 
@@ -78,6 +109,19 @@
 
   .contenido {
     margin: 0px 5%;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .actualizaciones {
+
+    .ultimasn {
+      text-align: center;
+
+    }
+
   }
 
 }
