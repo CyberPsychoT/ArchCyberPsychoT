@@ -25,6 +25,23 @@
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
 
+/* Estilos de encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    /* Ajusta otros estilos según sea necesario */
+}
+
+/* Estilos de párrafos y texto general */
+p {
+    font-family: 'Noto Sans', sans-serif;
+    /* Ajusta otros estilos según sea necesario */
+}
+
 /**
  * Ionic Dark Mode
  * -----------------------------------------------------

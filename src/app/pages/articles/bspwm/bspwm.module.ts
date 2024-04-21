@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { BspwmPageRoutingModule } from './bspwm-routing.module';
 
 import { BspwmPage } from './bspwm.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
+    ComponentsModule,
     FormsModule,
     IonicModule,
-    BspwmPageRoutingModule
+    BspwmPageRoutingModule,
   ],
-  declarations: [BspwmPage]
+  declarations: [BspwmPage],
 })
 export class BspwmPageModule {}

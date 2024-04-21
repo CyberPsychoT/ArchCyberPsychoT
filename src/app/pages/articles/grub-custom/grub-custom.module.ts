@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { GrubCustomPageRoutingModule } from './grub-custom-routing.module';
 
 import { GrubCustomPage } from './grub-custom.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
+    ComponentsModule,
     FormsModule,
     IonicModule,
-    GrubCustomPageRoutingModule
+    GrubCustomPageRoutingModule,
   ],
-  declarations: [GrubCustomPage]
+  declarations: [GrubCustomPage],
 })
 export class GrubCustomPageModule {}

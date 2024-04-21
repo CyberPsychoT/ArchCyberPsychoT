@@ -41,7 +41,6 @@
     list-style-position: inside;
     /* Mover el marcador al interior del contenedor de la lista */
   }
-
 }
 
 .requisitos {
@@ -106,22 +105,15 @@
 
 /* Estilos específicos para dispositivos móviles (ejemplo: pantalla menor a 768px de ancho) */
 @media (max-width: 768px) {
-
   .contenido {
     margin: 0px 5%;
   }
-
 }
 
 @media (max-width: 576px) {
-
   .actualizaciones {
-
     .ultimasn {
       text-align: center;
-
     }
-
   }
-
 }

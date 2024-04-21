@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { LightdmPageRoutingModule } from './lightdm-routing.module';
 
 import { LightdmPage } from './lightdm.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
+    ComponentsModule,
     FormsModule,
     IonicModule,
-    LightdmPageRoutingModule
+    LightdmPageRoutingModule,
   ],
-  declarations: [LightdmPage]
+  declarations: [LightdmPage],
 })
 export class LightdmPageModule {}

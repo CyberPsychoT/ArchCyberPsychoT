@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { InstallPageRoutingModule } from './install-routing.module';
 
 import { InstallPage } from './install.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
+    ComponentsModule,
     FormsModule,
     IonicModule,
-    InstallPageRoutingModule
+    InstallPageRoutingModule,
   ],
-  declarations: [InstallPage]
+  declarations: [InstallPage],
 })
 export class InstallPageModule {}
